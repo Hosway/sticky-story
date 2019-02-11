@@ -28,3 +28,28 @@ body {
   background: url(rsa-cover2.jpg);
   background-size: cover;
 }
+
+section {
+  height: auto;
+  display: flex;
+  
+}
+
+section .imgBx  {
+  position: sticky;
+  top: 0;
+  min-width: 50%;
+  height: 100vh;
+}
+
+section .storyBx {
+  padding: 60px;
+}
+
+section .storyBx h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  text-align: justify;
+}
+
